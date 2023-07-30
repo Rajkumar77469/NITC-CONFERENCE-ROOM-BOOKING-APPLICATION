@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.communityd1">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/new_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/new_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CommunityD1"
+        tools:targetApi="31">
+        <activity
+            android:name=".Test"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminMain"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View_user_booking"
+            android:exported="false" />
+        <activity
+            android:name=".View_Booking_Confirmed"
+            android:exported="false" />
+        <activity
+            android:name=".View_Booking_request"
+            android:exported="false" />
+        <activity
+            android:name=".ViewRoom"
+            android:exported="false" />
+        <activity
+            android:name=".User_requests"
+            android:exported="false" />
+        <activity
+            android:name=".User_signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+    </application>
+
+</manifest>

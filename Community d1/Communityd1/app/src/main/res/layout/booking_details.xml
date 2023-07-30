@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking details"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/book_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/book_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/book_purpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Purpose" />
+
+    <TextView
+        android:id="@+id/book_roomId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Room" />
+
+    <TextView
+        android:id="@+id/book_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:maxWidth="70dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Client" />
+
+    <TextView
+        android:id="@+id/book_faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:maxWidth="70dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Faculty" />
+
+    <TextView
+        android:id="@+id/book_suggest_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:maxWidth="70dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="Suggestion" />
+
+    <EditText
+        android:id="@+id/book_suggest"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Suggestion (Rejected)" />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/book_room_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:text="REJECT" />
+
+        <Button
+            android:id="@+id/book_room_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCEPT" />
+
+    </LinearLayout>
+
+</LinearLayout>
